@@ -1,0 +1,170 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+@font-face {
+  font-family: 'Stardom';
+  src: url('../public/fonts/Stardom/Stardom-Regular.woff') format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Alpino';
+  src: url('../public/fonts/Alpino/Alpino-Regular.woff') format('truetype');
+}
+
+@font-face {
+  font-family: 'Alpino-Bold';
+  src: url('../public/fonts/Alpino/Alpino-Bold.woff') format('truetype');
+}
+
+@font-face {
+  font-family: 'Alpino-Medium';
+  src: url('../public/fonts/Alpino/Alpino-Medium.woff') format('truetype');
+}
+
+@font-face {
+  font-family: 'GeneralSans';
+  src: url('../public/fonts/GeneralSans/GeneralSans-Regular.woff') format('truetype');
+}
+
+@font-face {
+  font-family: 'GeneralSans-Italic';
+  src: url('../public/fonts/GeneralSans/GeneralSans-Italic.woff') format('truetype');
+}
+
+@font-face {
+  font-family: 'GeneralSans-MediumItalic';
+  src: url('../public/fonts/GeneralSans/GeneralSans-MediumItalic.woff') format('truetype');
+}
+
+@font-face {
+  font-family: 'GeneralSans-Medium';
+  src: url('../public/fonts/GeneralSans/GeneralSans-Medium.woff') format('truetype');
+}
+
+@font-face {
+  font-family: 'GeneralSans-Semibold';
+  src: url('../public/fonts/GeneralSans/GeneralSans-Semibold.woff') format('truetype');
+}
+
+@font-face {
+  font-family: 'GeneralSans-Bold';
+  src: url('../public/fonts/GeneralSans/GeneralSans-Bold.woff') format('truetype');
+}
+
+
+body{
+  min-height: 100vh;
+  margin: 0;
+  background: linear-gradient(to bottom, #226ce0);
+  color: #fff9fe;
+}
+
+.home{ 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about{
+  font-family: "Stardom";
+  font-size: 300%;
+  text-align: center;
+  margin: 4% 0 4%;
+}
+.about-2{
+  font-family: "Stardom";
+  color: #bf1a2f;
+  font-size: 300%;
+  text-align: center;
+  margin: 4% 0 4%;
+}
+.h1-react{
+  font-family: "Alpino-Bold";
+  margin: 5% 0 2%;
+  font-size: 404%;
+}
+
+.navbar{
+  font-family: "Alpino-Medium";
+  font-size: 32px;
+}
+
+.navbar-brand{
+  font-family: "Stardom";
+  font-size: 38px;
+}
+
+.title-cat{
+  font-family: "GeneralSans-Bold";
+  font-size: 404%;
+  margin: 4% 0 0;
+}
+
+.facts{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fact{
+  font-family: "GeneralSans";
+  font-size: 175%;
+  margin: 2% 0 2%;
+}
