@@ -112,7 +112,7 @@ html.lenis, html.lenis body {
 body{
   min-height: 100vh;
   margin: 0;
-  background: linear-gradient(to bottom, #226ce0);
+  background-color: #2374f7;
   color: #fff9fe;
 }
 
